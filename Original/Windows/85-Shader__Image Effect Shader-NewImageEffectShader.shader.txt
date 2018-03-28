@@ -43,7 +43,7 @@ Shader "Hidden/#NAME#"
 			{
 				fixed4 col = tex2D(_MainTex, i.uv);
 				// just invert the colors
-				col = 1 - col;
+				col.rgb = 1 - col.rgb;
 				return col;
 			}
 			ENDCG

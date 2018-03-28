@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+using JetBrains.Annotations;
+using UnityEngine;
 using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
-using JetBrains.Annotations;
 using Fiftytwo;
 
 public class #SCRIPTNAME#
